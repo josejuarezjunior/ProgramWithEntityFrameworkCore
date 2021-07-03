@@ -1,0 +1,15 @@
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Data.deps.json
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Data.runtimeconfig.json
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Data.runtimeconfig.dev.json
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Data.dll
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Data.pdb
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Domain.dll
+C:\CSharp\MyReaderBook\MyReaderBook.Data\bin\Debug\netcoreapp3.1\MyReaderBook.Domain.pdb
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.csproj.AssemblyReference.cache
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.AssemblyInfoInputs.cache
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.AssemblyInfo.cs
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.csproj.CoreCompileInputs.cache
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.csproj.CopyComplete
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.dll
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.pdb
+C:\CSharp\MyReaderBook\MyReaderBook.Data\obj\Debug\netcoreapp3.1\MyReaderBook.Data.genruntimeconfig.cache

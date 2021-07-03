@@ -1,0 +1,9 @@
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\bin\Debug\netcoreapp3.1\MyReaderBook.Domain.deps.json
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\bin\Debug\netcoreapp3.1\MyReaderBook.Domain.dll
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\bin\Debug\netcoreapp3.1\MyReaderBook.Domain.pdb
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\obj\Debug\netcoreapp3.1\MyReaderBook.Domain.csproj.AssemblyReference.cache
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\obj\Debug\netcoreapp3.1\MyReaderBook.Domain.AssemblyInfoInputs.cache
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\obj\Debug\netcoreapp3.1\MyReaderBook.Domain.AssemblyInfo.cs
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\obj\Debug\netcoreapp3.1\MyReaderBook.Domain.csproj.CoreCompileInputs.cache
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\obj\Debug\netcoreapp3.1\MyReaderBook.Domain.dll
+C:\CSharp\MyReaderBook\MyReaderBook.Domain\obj\Debug\netcoreapp3.1\MyReaderBook.Domain.pdb
