@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyReaderBook.Data;
 
 namespace MyReaderBook.Data.Migrations
 {
     [DbContext(typeof(MyReaderBookContext))]
-    partial class MyReaderBookContextModelSnapshot : ModelSnapshot
+    [Migration("20210704000327_IncludeReaderEntity")]
+    partial class IncludeReaderEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

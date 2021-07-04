@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyReaderBook.Data;
 
 namespace MyReaderBook.Data.Migrations
 {
     [DbContext(typeof(MyReaderBookContext))]
-    partial class MyReaderBookContextModelSnapshot : ModelSnapshot
+    [Migration("20210703235418_IncludeBookEntity")]
+    partial class IncludeBookEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -58,24 +60,6 @@ namespace MyReaderBook.Data.Migrations
                     b.HasIndex("AuthorId");
 
                     b.ToTable("Books");
-                });
-
-            modelBuilder.Entity("MyReaderBook.Domain.Reader", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Readers");
                 });
 
             modelBuilder.Entity("MyReaderBook.Domain.Book", b =>

@@ -15,7 +15,7 @@ namespace MyReaderBook.ConsoleApp
         static void Main(string[] args)
         {
             //Inserting an "Author"
-            //InsertAuthor();
+            InsertAuthor();
 
             //Inserting a range of "Author"
             //InsertAuthors();
@@ -26,11 +26,21 @@ namespace MyReaderBook.ConsoleApp
             //Finding "Author" the name start with "A" or "J"
             //FindAuthors();
 
-            DeleteAuthor();
+            //DeleteAuthor();
+
+            //UpdateAuthor();
         }
         static void InsertAuthor()
         {
-            var author = new Author() { FirstName = "João", LastName = "Batista" };
+            var author = new Author();
+
+            Console.WriteLine("--------------------- Insert Author ---------------------");
+            Console.WriteLine();
+            Console.Write("Type first name: ");
+            author.FirstName = Console.ReadLine();
+            Console.Write("Type last name: ");
+            author.LastName = Console.ReadLine();
+
 
             context.Authors.Add(author);
             context.SaveChanges();
@@ -80,6 +90,33 @@ namespace MyReaderBook.ConsoleApp
             var dauthor = context.Authors.Single(e => e.Id == n);
             context.Authors.Remove(dauthor);
             context.SaveChanges();
+        }
+        static void UpdateAuthor()
+        {
+            ShowAuthors();
+
+            Console.Write("Type Id Author you want to update: ");
+            int id = int.Parse(Console.ReadLine());
+            var author = context.Authors.Find(id);
+
+            Console.Write("Type first name: ");
+            author.FirstName = Console.ReadLine();
+
+            Console.Write("Type last name: ");
+            author.LastName = Console.ReadLine();
+
+            
+            context.Authors.Update(author);
+            context.SaveChanges();  
+        }
+        static void ShowAuthors()
+        {
+            foreach (Author author in context.Authors)
+            {
+                Console.WriteLine($"Id {author.Id} : {author.FirstName} {author.LastName}");
+            }
+            Console.WriteLine();
+
         }
     }
 }
